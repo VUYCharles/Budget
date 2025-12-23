@@ -25,15 +25,12 @@ L'idee est d'eviter la multiplication des comptes ou des cartes bancaires. Grace
 
 ## Installation
 
-1. Creer un environnement virtuel :
-```text
-python -m venv venv
-```
+
 # Installation
 
 1. Creer un environnement virtuel :
 ```text
-   python -m venv
+   python -m venv venv
 ```
 3. Activer l'environnement :
 ```text
