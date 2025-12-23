@@ -13,7 +13,7 @@ L'idee est d'eviter la multiplication des comptes ou des cartes bancaires. Grace
 - On garde une seule carte bancaire pour tout, avec une vision claire par enveloppe.
 - On stocke ses justificatifs directement dans l'outil pour le suivi administratif.
 
-![Configuration des etiquettes](Paramètre.png)
+![Configuration des etiquettes](Parametre.png)
 
 ## Fonctions
 
@@ -32,7 +32,7 @@ python -m venv venv
 # Installation
 
 1. Creer un environnement virtuel :
-```python
+```text
    python -m venv
 ```
 3. Activer l'environnement :
@@ -41,11 +41,11 @@ python -m venv venv
   - Mac/Linux : source venv/bin/activate
 ```
 4. Installer les dependances :
-```python
+```tex
 pip install -r requirements.txt
 ```
 5. Lancer l'application :
-```python
+```text
 streamlit run app.py
 ```
 
