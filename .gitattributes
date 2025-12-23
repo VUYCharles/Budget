@@ -1,0 +1,7 @@
+# Exclure les images de presentation du ZIP de telechargement
+app.png export-ignore
+Parametre.png export-ignore
+
+# Exclure les fichiers de configuration technique
+.gitignore export-ignore
+.gitattributes export-ignore
