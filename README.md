@@ -23,8 +23,6 @@ L'idee est d'eviter la multiplication des comptes ou des cartes bancaires. Grace
 - Analyse visuelle (objectifs vs realite).
 - Donnees stockees localement en CSV pour une confidentialite totale.
 
-## Installation
-
 
 # Installation
 
