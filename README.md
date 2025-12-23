@@ -2,6 +2,8 @@
 
 Un outil simple pour gerer son argent en local, sans cloud et sans fioritures.
 
+![Interface principale](app.png)
+
 ## Pourquoi cet outil ? (Contexte AIP)
 
 Ce projet est pense pour les eleves fonctionnaires devant gerer leur installation (AIP). 
@@ -10,6 +12,8 @@ L'idee est d'eviter la multiplication des comptes ou des cartes bancaires. Grace
 - On separe virtuellement les frais d'installation du reste.
 - On garde une seule carte bancaire pour tout, avec une vision claire par enveloppe.
 - On stocke ses justificatifs directement dans l'outil pour le suivi administratif.
+
+![Configuration des etiquettes](Paramètre.png)
 
 ## Fonctions
 
@@ -22,15 +26,27 @@ L'idee est d'eviter la multiplication des comptes ou des cartes bancaires. Grace
 ## Installation
 
 1. Creer un environnement virtuel :
-   python -m venv venv
+```text
+python -m venv venv
+```
+# Installation
 
-2. Activer l'environnement :
-   - Windows : venv\Scripts\activate
-   - Mac/Linux : source venv/bin/activate
+1. Creer un environnement virtuel :
+```python
+   python -m venv
+```
+3. Activer l'environnement :
+```text
+ - Windows : venv\Scripts\activate
+  - Mac/Linux : source venv/bin/activate
+```
+4. Installer les dependances :
+```python
+pip install -r requirements.txt
+```
+5. Lancer l'application :
+```python
+streamlit run app.py
+```
 
-3. Installer les dependances :
-   pip install -r requirements.txt
-
-4. Lancer l'application :
-   streamlit run app.py
 
